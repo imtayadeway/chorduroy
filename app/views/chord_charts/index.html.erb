@@ -1,0 +1,21 @@
+<%= form_tag("/results", method: "get") do %>
+  <%= label_tag("6th String") %>
+  <%= select_tag("6th", options_for_select(note_options)) %>
+
+  <%= label_tag("5th String") %>
+  <%= select_tag("5th", options_for_select(note_options)) %>
+
+  <%= label_tag("4th String") %>
+  <%= select_tag("4th", options_for_select(note_options)) %>
+
+  <%= label_tag("3rd String") %>
+  <%= select_tag("3rd", options_for_select(note_options)) %>
+
+  <%= label_tag("2nd String") %>
+  <%= select_tag("2nd", options_for_select(note_options)) %>
+
+  <%= label_tag("1st String") %>
+  <%= select_tag("1st", options_for_select(note_options)) %>
+
+  <%= submit_tag("Submit") %>
+<% end %>

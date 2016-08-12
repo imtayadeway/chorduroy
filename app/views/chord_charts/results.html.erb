@@ -1,0 +1,6 @@
+<% @chord_chart.all.each do |key, positions| %>
+  <h2><%= key %></h2>
+  <% positions.each do |position| %>
+    <pre><%= position.to_ascii %></pre>
+  <% end %>
+<% end %>
