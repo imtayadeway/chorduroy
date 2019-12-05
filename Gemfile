@@ -3,7 +3,7 @@ source "https://rubygems.org"
 ruby "2.6.3"
 
 gem "rails", github: "rails/rails"
-gem "puma", "~> 3.0"
+gem "puma", "~> 4.3"
 gem "jbuilder", "~> 2.5"
 
 group :development, :test do
